@@ -23,7 +23,8 @@ ON and OFF of Ignition by long pressing the blue botton and it is indicated by R
 and speed of Blinking of led is speed of the wiper system, which will be control with Frequency.
 
 #### There will be 5 tasks.
-* First task is to start the car: Assume Red LED indicates the Ignition Start or Stop, if Red LED On the Ignition will Start and if Red LED Off the Ignition will Stop.
+* First task is to start the car: Assume Red LED indicates the Ignition Start or Stop, if Red LED On the Ignition will Start and Red LED Off the Ignition will Start.
+                                  In First task Red LED will On and the Ignition will Start
 * Start the Wiper System: Assume Blue, Green and Orange LEDs indicates the Rotation of Wiper. 
                           It will rotate from Blue, Green and Orange LEDs and while wiper come back indicates from Orange, Green and Blue LEDs.
                           It will rotate in a slow mode.
