@@ -48,8 +48,18 @@ The frequency changes on every alternate key press, 3 frequency levels with 1, 4
 Wiper is ON: The LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2
 #### 4.Ignition Key Position at Lock: 
 The Red LED is OFF, if the user button is pressed and held for 2 secs
+ 
+## TestCases
+In this Assume Red LED indicates the Ignition Start or Stop.
+Assume Blue, Green and Orange LEDs indicates the Rotation of Wiper. 
 
 
+| TestCase         |                  Description                                                   |     Result                                    |
+| -----------------|:------------------------------------------------------------------------------:|----------------------------------------------:|
+|   First task     | Red LED will On and the Ignition will Start ( car is on)                       | Red LED will on (Ignition will Start)         |
+|   2nd task       | Blue, Green and Orange LEDs blink will indicates the Rotation of Wiper         | Blue, Green and Orange LEDs will blink        |
+| 3rd and 4th task | Blue, Green and Orange LEDs blinks Fast controlled by Frequency of 4Hz and 8Hz | Blue, Green and Orange LEDs will blink fast   |
+|     5th task     | Red LED will Off by long press and the Ignition will Start ( car is off)       | Red LED will off (Ignition will Stop)         |
 
 
 ## Output
