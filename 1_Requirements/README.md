@@ -32,7 +32,7 @@ and speed of Blinking of led is speed of the wiper system, which will be control
 * 5th task is to Off the Red LED Indicates the ignition is Stop it means the car is off.
 
 LED for presentation of Wiper System,Speed of Blinking of LED is the speed of wiper and which is controlled with frequency.There are Blue colour bottom on STM32, 
-if we long press the blue botton ( it may be 2sec) the Red LED will Glow it indicates the start of ignition.Then single press  Blue botton then Blue, Green and 
+if we long press the blue botton ( it may be 2sec) the Red LED will Glow it indicates the start of ignition.Then single press Blue botton then Blue, Green and 
 Orange LEDs Blink in a sequence this will indicates the wiper rotation.Once single press on Blue botton the speed of the  rotation of wiper increases by 
 controlling the Frequency at 4Hz.Once again press the blue botton the speed of the  rotation of wiper increases by controlling the Frequency at 8Hz.
 Then again long press on the blue botton ( it may be 2sec) the Red LED will Off it indicates the stop of ignition ( car is off).
