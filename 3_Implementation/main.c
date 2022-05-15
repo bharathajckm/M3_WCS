@@ -59,8 +59,8 @@ int main()
 
 					}
 						if(j==1)
-            {
-              for(j=0;j<5;j++) //For LED GREEN
+						{
+                                        for(j=0;j<5;j++) //For LED GREEN
 						{
 						GPIOD_ODR |= 1<<12;
 						for(i=0;i<20000;i++);
